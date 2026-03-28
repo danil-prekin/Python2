@@ -1,6 +1,6 @@
 import unittest
 from freezegun import freeze_time
-from app import app  # предполагаем, что Flask-приложение в файле app.py
+from app import app 
 
 
 class HelloWorldTestCase(unittest.TestCase):
